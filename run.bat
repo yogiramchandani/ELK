@@ -1,0 +1,1 @@
+D:\ELK\elasticsearch-1.3.4\bin\elasticsearch -Des.default.config=D:/ELK/Data/elasticsearch.yml

@@ -1,0 +1,114 @@
+input {
+    file {
+        type => "yogir:nomination:msmq:uploads"
+        path => "C:/logs/dh.Messaging/Nominations/Uploads.log*"
+        add_field => { "server" => "yogir" }
+        codec => multiline {
+            # Grok pattern names are valid! :)
+            pattern => "^%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME},%{INT} \[%{INT:Thread}\] %{WORD:LogType}"
+            negate => true
+            what => previous
+        }
+    }
+    file {
+        type => "yogir:nomination:msmq:create"
+        path => "C:/logs/dh.Messaging/Nominations/Creater.log*"
+        add_field => { "server" => "yogir" }
+        codec => multiline {
+            # Grok pattern names are valid! :)
+            pattern => "^%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME},%{INT} \[%{INT:Thread}\] %{WORD:LogType}"
+            negate => true
+            what => previous
+        }
+    }
+    file {
+        type => "yogir:nomination:msmq:update"
+        path => "C:/logs/dh.Messaging/Nominations/Updater.log*"
+        add_field => { "server" => "yogir" }
+        codec => multiline {
+            # Grok pattern names are valid! :)
+            pattern => "^%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME},%{INT} \[%{INT:Thread}\] %{WORD:LogType}"
+            negate => true
+            what => previous
+        }
+    }
+    file {
+        type => "yogir:nomination:msmq:group"
+        path => "C:/logs/dh.Messaging/Nominations/Group.log*"
+        add_field => { "server" => "yogir" }
+        codec => multiline {
+            # Grok pattern names are valid! :)
+            pattern => "^%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME},%{INT} \[%{INT:Thread}\] %{WORD:LogType}"
+            negate => true
+            what => previous
+        }
+    }
+    file {
+        type => "yogir:nomination:msmq:emailer"
+        path => "C:/logs/dh.Messaging/Nominations/Emailer.log*"
+        add_field => { "server" => "yogir" }
+        codec => multiline {
+            # Grok pattern names are valid! :)
+            pattern => "^%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME},%{INT} \[%{INT:Thread}\] %{WORD:LogType}"
+            negate => true
+            what => previous
+        }
+    }
+    file {
+        type => "yogir:nomination:web"
+        path => "C:/logs/nominations.log*"
+        add_field => { "server" => "yogir" }
+        codec => multiline {
+            # Grok pattern names are valid! :)
+            pattern => "^\[%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME},%{INT}\] "
+            negate => true
+            what => previous
+        }
+    }
+    file {
+        type => "tescoUK:systest:nomination:web"
+        path => "/\/\GB-SLO-SVV-0737\logs/\nominations.log*"
+        add_field => { "server" => "tescoUK" }
+        codec => multiline {
+            # Grok pattern names are valid! :)
+            pattern => "^\[%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME},%{INT}\] "
+            negate => true
+            what => previous
+        }
+    }       
+    file {
+        type => "krogerUS:systest:nomination:web"
+        path => "/\/\US-COL-SVV-0615/\logs/\nominations.log*"
+        add_field => { "server" => "krogerUS" }
+        codec => multiline {
+            # Grok pattern names are valid! :)
+            pattern => "^\[%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME},%{INT}\] "
+            negate => true
+            what => previous
+        }
+    }
+}
+filter{
+    if [type] in ["krogerUS:systest:nomination:web", "tescoUK:systest:nomination:web", "yogir:nomination:web"] {
+        grok { 
+            match => ["message","^%{TIMESTAMP_ISO8601:timestamp}"]
+        }
+        date {
+            match => [ "timestamp", "yyyy-MM-dd HH:mm:ss,SSS" ]
+            target => "@timestamp"
+        }
+    }
+    if [type] in ["yogir:nomination:msmq:uploads", "yogir:nomination:msmq:create", "yogir:nomination:msmq:update", "yogir:nomination:msmq:group", "yogir:nomination:msmq:emailer"] {
+        grok { 
+            match => ["message","^%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME},%{INT} \[%{INT:Thread}\] %{WORD:LogType}  %{GREEDYDATA:Service} \[%{WORD:ProcessName}\] \[%{INT:BulkUploadId}\]"]
+        }
+    }
+}
+
+output {
+    elasticsearch {
+        host => "localhost"
+        port => 9200
+        protocol => "http"
+    }
+}

@@ -1,0 +1,1 @@
+D:\ELK\logstash-1.4.2\bin\logstash rspec D:\ELK\Data\logstash_config_tests\tests.rb

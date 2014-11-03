@@ -1,0 +1,441 @@
+{:timestamp=>"2014-10-29T16:48:45.998000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.012000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.024000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.027000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.029000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.031000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.034000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.036000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.037000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.039000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.047000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.048000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.050000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.133000+0000", :message=>"Using milestone 2 input plugin 'file'. This plugin should be stable, but if you see strange behavior, please let us know! For more information on plugin milestones, see http://logstash.net/docs/1.4.2/plugin-milestones", :level=>:warn}
+{:timestamp=>"2014-10-29T16:48:46.138000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.143000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.151000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.153000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.154000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.157000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.159000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.161000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.163000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.164000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.169000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.171000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.178000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.188000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.192000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.199000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.202000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.203000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.205000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.207000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.209000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.213000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.215000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.218000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.222000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.224000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.230000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.237000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.242000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.245000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.247000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.248000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.249000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.250000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.252000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.254000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.275000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.289000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.291000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.318000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.325000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.333000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.336000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.338000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.342000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.344000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.345000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.347000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.348000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.353000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.354000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.356000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.365000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.369000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.375000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.377000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.378000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.382000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.384000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.386000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.388000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.391000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.395000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.397000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.399000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.416000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.427000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.442000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.445000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.448000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.450000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.452000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.454000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.455000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.456000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.460000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.461000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.462000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.473000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.475000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.480000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.483000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.485000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.488000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.490000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.493000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.494000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.496000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.501000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.503000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:46.504000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.651000+0000", :message=>"Registering file input", :path=>["C:/logs/nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.653000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_4f19ccdfe7cb199076ca09304e64f05e", :path=>["C:/logs/nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.658000+0000", :message=>"Registering file input", :path=>["C:/logs/dh.Messaging/Nominations/Uploads.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.659000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_224b7c8629ec1af45f3882cdc21bf47b", :path=>["C:/logs/dh.Messaging/Nominations/Uploads.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.661000+0000", :message=>"Registering file input", :path=>["C:/logs/dh.Messaging/Nominations/Creater.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.663000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_7224e31bb7a7c7adfba0a9387e5f2c84", :path=>["C:/logs/dh.Messaging/Nominations/Creater.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.665000+0000", :message=>"Registering file input", :path=>["C:/logs/dh.Messaging/Nominations/Updater.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.666000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_9e39ed56fadc74cce3762f6498545160", :path=>["C:/logs/dh.Messaging/Nominations/Updater.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.671000+0000", :message=>"Registering file input", :path=>["C:/logs/dh.Messaging/Nominations/Group.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.672000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_120885bddd6aa8a9d7cf7a7afeff633f", :path=>["C:/logs/dh.Messaging/Nominations/Group.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.692000+0000", :message=>"Registering file input", :path=>["C:/logs/dh.Messaging/Nominations/Emailer.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.694000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_8100796756ab4ef227f56881cd462eae", :path=>["C:/logs/dh.Messaging/Nominations/Emailer.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.696000+0000", :message=>"Registering file input", :path=>["/\\/\\GB-SLO-SVV-0737\\logs/\\nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.697000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_d9c124580831ee21d80033d4dfb55f9e", :path=>["/\\/\\GB-SLO-SVV-0737\\logs/\\nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.699000+0000", :message=>"Registering file input", :path=>["/\\/\\US-COL-SVV-0615/\\logs/\\nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.700000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_2d2dac38bbe069bf6e34aef67354f8d4", :path=>["/\\/\\US-COL-SVV-0615/\\logs/\\nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.702000+0000", :message=>"Grok patterns path", :patterns_dir=>["D:/ELK/logstash-1.4.2/patterns/*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.703000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.704000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.704000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.705000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.705000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.706000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.706000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.707000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.707000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.708000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.708000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.708000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.709000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.713000+0000", :message=>"Match data", :match=>{"message"=>"^\\[%{TIMESTAMP_ISO8601:timestamp}\\]"}, :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.718000+0000", :message=>"Grok compile", :field=>"message", :patterns=>["^\\[%{TIMESTAMP_ISO8601:timestamp}\\]"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.745000+0000", :message=>"Grok patterns path", :patterns_dir=>["D:/ELK/logstash-1.4.2/patterns/*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.746000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.747000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.747000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.747000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.748000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.748000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.749000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.749000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.749000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.749000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.750000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.750000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.750000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.751000+0000", :message=>"Match data", :match=>{"message"=>"^%{TIMESTAMP_ISO8601:timestamp} \\[%{INT:Thread}\\] %{WORD:LogType}  %{GREEDYDATA:Service} \\[%{WORD:ProcessName}\\] \\[%{INT:BulkUploadId}\\]"}, :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.751000+0000", :message=>"Grok compile", :field=>"message", :patterns=>["^%{TIMESTAMP_ISO8601:timestamp} \\[%{INT:Thread}\\] %{WORD:LogType}  %{GREEDYDATA:Service} \\[%{WORD:ProcessName}\\] \\[%{INT:BulkUploadId}\\]"], :level=>:info}
+{:timestamp=>"2014-10-29T16:48:48.770000+0000", :message=>"Pipeline started", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:52.500000+0000", :message=>"New Elasticsearch output", :cluster=>nil, :host=>"localhost", :port=>9200, :embedded=>false, :protocol=>"http", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:52.502000+0000", :message=>"Automatic template management enabled", :manage_template=>"true", :level=>:info}
+{:timestamp=>"2014-10-29T16:48:52.505000+0000", :message=>"Using mapping template", :template=>"{  \"template\" : \"logstash-*\",  \"settings\" : {    \"index.refresh_interval\" : \"5s\"  },  \"mappings\" : {    \"_default_\" : {       \"_all\" : {\"enabled\" : true},       \"dynamic_templates\" : [ {         \"string_fields\" : {           \"match\" : \"*\",           \"match_mapping_type\" : \"string\",           \"mapping\" : {             \"type\" : \"string\", \"index\" : \"analyzed\", \"omit_norms\" : true,               \"fields\" : {                 \"raw\" : {\"type\": \"string\", \"index\" : \"not_analyzed\", \"ignore_above\" : 256}               }           }         }       } ],       \"properties\" : {         \"@version\": { \"type\": \"string\", \"index\": \"not_analyzed\" },         \"geoip\"  : {           \"type\" : \"object\",             \"dynamic\": true,             \"path\": \"full\",             \"properties\" : {               \"location\" : { \"type\" : \"geo_point\" }             }         }       }    }  }}", :level=>:info}
+{:timestamp=>"2014-10-29T16:54:12.021000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-29T16:54:12.024000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x2adbebf7 sleep>, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:12.059000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4b45449f sleep>, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:12.079000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x51308e9 sleep>, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:12.096000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x571cc9db sleep>, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:12.109000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x186f81a9 sleep>, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:12.120000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x1333e8cb sleep>, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:12.140000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x7060962 sleep>, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:12.153000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x43673549 sleep>, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:13.080000+0000", :message=>"Plugin is finished", :plugin=><LogStash::Filters::Grok match=>{"message"=>"^\\[%{TIMESTAMP_ISO8601:timestamp}\\]"}, tag_on_failure=>["_grokparsefailure"]>, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:13.081000+0000", :message=>"Plugin is finished", :plugin=><LogStash::Filters::Date match=>["yyyy-MM-dd HH:mm:ss,SSS"], target=>"@timestamp">, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:13.081000+0000", :message=>"Plugin is finished", :plugin=><LogStash::Filters::Grok match=>{"message"=>"^%{TIMESTAMP_ISO8601:timestamp} \\[%{INT:Thread}\\] %{WORD:LogType}  %{GREEDYDATA:Service} \\[%{WORD:ProcessName}\\] \\[%{INT:BulkUploadId}\\]"}, tag_on_failure=>["_grokparsefailure"]>, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:13.082000+0000", :message=>"Plugin is finished", :plugin=><LogStash::Filters::Date match=>["yyyy-MM-dd HH:mm:ss,SSS"], target=>"@timestamp">, :level=>:info}
+{:timestamp=>"2014-10-29T16:54:13.107000+0000", :message=>"Pipeline shutdown complete.", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.239000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.255000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.271000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.275000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.278000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.282000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.287000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.290000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.294000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.297000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.308000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.310000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.313000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.394000+0000", :message=>"Using milestone 2 input plugin 'file'. This plugin should be stable, but if you see strange behavior, please let us know! For more information on plugin milestones, see http://logstash.net/docs/1.4.2/plugin-milestones", :level=>:warn}
+{:timestamp=>"2014-10-29T16:57:06.400000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.406000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.414000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.417000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.419000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.421000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.424000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.426000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.427000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.429000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.435000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.437000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.445000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.452000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.457000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.463000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.466000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.468000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.470000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.472000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.473000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.476000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.478000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.483000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.487000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.489000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.499000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.506000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.512000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.515000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.517000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.519000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.522000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.524000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.526000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.527000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.542000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.556000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.565000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.588000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.595000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.603000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.608000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.610000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.612000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.617000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.619000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.621000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.624000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.630000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.633000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.636000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.647000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.653000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.661000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.664000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.667000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.669000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.672000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.674000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.676000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.677000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.682000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.685000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.686000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.702000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.714000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.730000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.736000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.738000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.739000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.742000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.744000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.746000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.747000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.750000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.751000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.753000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.764000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.768000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.773000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.775000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.777000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.778000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.781000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.783000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.785000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.786000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.790000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.792000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:06.793000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/lib/logstash/codecs/../../../patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:08.966000+0000", :message=>"Registering file input", :path=>["C:/logs/dh.Messaging/Nominations/Uploads.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:08.969000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_224b7c8629ec1af45f3882cdc21bf47b", :path=>["C:/logs/dh.Messaging/Nominations/Uploads.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:08.972000+0000", :message=>"Registering file input", :path=>["C:/logs/dh.Messaging/Nominations/Creater.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:08.974000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_7224e31bb7a7c7adfba0a9387e5f2c84", :path=>["C:/logs/dh.Messaging/Nominations/Creater.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:08.975000+0000", :message=>"Registering file input", :path=>["C:/logs/dh.Messaging/Nominations/Updater.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:08.977000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_9e39ed56fadc74cce3762f6498545160", :path=>["C:/logs/dh.Messaging/Nominations/Updater.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:08.980000+0000", :message=>"Registering file input", :path=>["C:/logs/dh.Messaging/Nominations/Group.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:08.981000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_120885bddd6aa8a9d7cf7a7afeff633f", :path=>["C:/logs/dh.Messaging/Nominations/Group.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:08.984000+0000", :message=>"Registering file input", :path=>["C:/logs/dh.Messaging/Nominations/Emailer.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:08.985000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_8100796756ab4ef227f56881cd462eae", :path=>["C:/logs/dh.Messaging/Nominations/Emailer.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.000000+0000", :message=>"Registering file input", :path=>["C:/logs/nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.002000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_4f19ccdfe7cb199076ca09304e64f05e", :path=>["C:/logs/nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.004000+0000", :message=>"Registering file input", :path=>["/\\/\\GB-SLO-SVV-0737\\logs/\\nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.006000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_d9c124580831ee21d80033d4dfb55f9e", :path=>["/\\/\\GB-SLO-SVV-0737\\logs/\\nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.018000+0000", :message=>"Registering file input", :path=>["/\\/\\US-COL-SVV-0615/\\logs/\\nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.019000+0000", :message=>"No sincedb_path set, generating one based on the file path", :sincedb_path=>"C:\\Users\\yogir/.sincedb_2d2dac38bbe069bf6e34aef67354f8d4", :path=>["/\\/\\US-COL-SVV-0615/\\logs/\\nominations.log*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.021000+0000", :message=>"Grok patterns path", :patterns_dir=>["D:/ELK/logstash-1.4.2/patterns/*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.024000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.026000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.026000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.027000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.027000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.028000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.028000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.028000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.029000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.029000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.030000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.030000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.031000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.038000+0000", :message=>"Match data", :match=>{"message"=>"^\\[%{TIMESTAMP_ISO8601:timestamp}\\]"}, :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.054000+0000", :message=>"Grok compile", :field=>"message", :patterns=>["^\\[%{TIMESTAMP_ISO8601:timestamp}\\]"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.095000+0000", :message=>"Grok patterns path", :patterns_dir=>["D:/ELK/logstash-1.4.2/patterns/*"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.097000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/firewalls", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.097000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/grok-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.097000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/haproxy", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.098000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/java", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.098000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/junos", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.099000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/linux-syslog", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.099000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mcollective", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.099000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mcollective-patterns", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.100000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/mongodb", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.100000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/nagios", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.100000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/postgresql", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.101000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/redis", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.101000+0000", :message=>"Grok loading patterns from file", :path=>"D:/ELK/logstash-1.4.2/patterns/ruby", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.102000+0000", :message=>"Match data", :match=>{"message"=>"^%{TIMESTAMP_ISO8601:timestamp} \\[%{INT:Thread}\\] %{WORD:LogType} %{GREEDYDATA:Service} \\[%{WORD:ProcessName}\\] \\[%{INT:BulkUploadId}\\]"}, :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.103000+0000", :message=>"Grok compile", :field=>"message", :patterns=>["^%{TIMESTAMP_ISO8601:timestamp} \\[%{INT:Thread}\\] %{WORD:LogType} %{GREEDYDATA:Service} \\[%{WORD:ProcessName}\\] \\[%{INT:BulkUploadId}\\]"], :level=>:info}
+{:timestamp=>"2014-10-29T16:57:09.121000+0000", :message=>"Pipeline started", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:12.441000+0000", :message=>"New Elasticsearch output", :cluster=>nil, :host=>"localhost", :port=>9200, :embedded=>false, :protocol=>"http", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:12.442000+0000", :message=>"Automatic template management enabled", :manage_template=>"true", :level=>:info}
+{:timestamp=>"2014-10-29T16:57:12.445000+0000", :message=>"Using mapping template", :template=>"{  \"template\" : \"logstash-*\",  \"settings\" : {    \"index.refresh_interval\" : \"5s\"  },  \"mappings\" : {    \"_default_\" : {       \"_all\" : {\"enabled\" : true},       \"dynamic_templates\" : [ {         \"string_fields\" : {           \"match\" : \"*\",           \"match_mapping_type\" : \"string\",           \"mapping\" : {             \"type\" : \"string\", \"index\" : \"analyzed\", \"omit_norms\" : true,               \"fields\" : {                 \"raw\" : {\"type\": \"string\", \"index\" : \"not_analyzed\", \"ignore_above\" : 256}               }           }         }       } ],       \"properties\" : {         \"@version\": { \"type\": \"string\", \"index\": \"not_analyzed\" },         \"geoip\"  : {           \"type\" : \"object\",             \"dynamic\": true,             \"path\": \"full\",             \"properties\" : {               \"location\" : { \"type\" : \"geo_point\" }             }         }       }    }  }}", :level=>:info}
+{:timestamp=>"2014-10-30T09:23:35.406000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:35.410000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b sleep>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:35.447000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 sleep>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:35.462000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad sleep>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:35.473000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b sleep>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:35.496000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c sleep>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:35.510000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb sleep>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:35.535000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:35.549000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.331000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:36.332000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.359000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.383000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.398000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.411000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.424000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.435000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.447000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.510000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:36.510000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.524000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.535000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.547000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.560000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.572000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.584000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.596000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.675000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:36.675000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.689000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.703000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.719000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.733000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.746000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.760000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:36.773000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.711000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:38.711000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.735000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.752000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.771000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.789000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.802000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.813000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.824000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.902000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:38.902000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.923000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.939000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.951000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.961000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.971000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.981000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:38.990000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.061000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:39.061000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.086000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.107000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.127000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.149000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.163000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.174000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.184000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.672000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:39.672000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.683000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.694000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.705000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.716000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.727000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.742000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.752000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.873000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:39.873000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.900000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.914000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.926000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.938000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.949000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.960000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:39.972000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.055000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:41.055000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.081000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.105000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.130000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.155000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.174000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.188000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.200000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.253000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:41.254000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.278000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.304000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.323000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.335000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.348000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.360000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.373000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.415000+0000", :message=>"Interrupt received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2014-10-30T09:23:41.416000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x115fb87b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.433000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x39497ba2 dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.446000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x5c928cad dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.458000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x24f1ca7b dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.470000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0xfd9c93c dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.483000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x6da9a1cb dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.495000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x69b129f run>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:41.507000+0000", :message=>"Sending shutdown signal to input thread", :thread=>#<Thread:0x4dd92e9e dead>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:43.730000+0000", :message=>"Plugin is finished", :plugin=><LogStash::Filters::Grok match=>{"message"=>"^\\[%{TIMESTAMP_ISO8601:timestamp}\\]"}, tag_on_failure=>["_grokparsefailure"]>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:43.731000+0000", :message=>"Plugin is finished", :plugin=><LogStash::Filters::Date match=>["yyyy-MM-dd HH:mm:ss,SSS"], target=>"@timestamp">, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:43.731000+0000", :message=>"Plugin is finished", :plugin=><LogStash::Filters::Grok match=>{"message"=>"^%{TIMESTAMP_ISO8601:timestamp} \\[%{INT:Thread}\\] %{WORD:LogType} %{GREEDYDATA:Service} \\[%{WORD:ProcessName}\\] \\[%{INT:BulkUploadId}\\]"}, tag_on_failure=>["_grokparsefailure"]>, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:43.732000+0000", :message=>"Plugin is finished", :plugin=><LogStash::Filters::Date match=>["yyyy-MM-dd HH:mm:ss,SSS"], target=>"@timestamp">, :level=>:info}
+{:timestamp=>"2014-10-30T09:23:43.735000+0000", :message=>"Pipeline shutdown complete.", :level=>:info}
