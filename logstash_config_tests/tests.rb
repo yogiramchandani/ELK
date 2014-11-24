@@ -5,7 +5,7 @@ require "logstash/filters/grok"
 
 describe LogStash::Filters::Grok do
   extend LogStash::RSpec
-    
+
     describe "Nominations msmq for create service" do
         config <<-CONFIG
             filter {
@@ -19,20 +19,20 @@ describe LogStash::Filters::Grok do
           }
         CONFIG
 
-        sample "2014-10-29 13:53:51,334 [6] INFO  dh.Nominations.Messaging.Processor.ProcessedMessageService [CreateService] [2109] - Saved nomination 2127 at row 2." do
-            insist { subject["message"]         } == "2014-10-29 13:53:51,334 [6] INFO  dh.Nominations.Messaging.Processor.ProcessedMessageService [CreateService] [2109] - Saved nomination 2127 at row 2."
+        sample "2014-10-29 13:53:51,334 [6] INFO  App.Messaging.Processor.ProcessedMessageService [CreateService] [2109] - Saved instance 2127 at row 2." do
+            insist { subject["message"]         } == "2014-10-29 13:53:51,334 [6] INFO  App.Messaging.Processor.ProcessedMessageService [CreateService] [2109] - Saved instance 2127 at row 2."
             insist { subject["tags"]            } != ["_grokparsefailure"]
             insist { subject["@timestamp"].strftime("%FT%T%:z") } == "2014-10-29T13:53:51+00:00"
-            insist { subject["a_timestamp"]     } == "2014-10-29 13:53:51,334" 
+            insist { subject["a_timestamp"]     } == "2014-10-29 13:53:51,334"
             insist { subject["a_thread"]        } == "6"
             insist { subject["a_logtype"]       } == "INFO"
-            insist { subject["a_service"]       } == " dh.Nominations.Messaging.Processor.ProcessedMessageService"
+            insist { subject["a_service"]       } == " App.Messaging.Processor.ProcessedMessageService"
             insist { subject["a_processname"]   } == "[CreateService]"
             insist { subject["a_bulkuploadid"]  } == "[2109]"
-            insist { subject["a_message"]       } == "Saved nomination 2127 at row 2."
+            insist { subject["a_message"]       } == "Saved instance 2127 at row 2."
         end
     end
-    
+
     describe "simple syslog line" do
         # The logstash config goes here.
         # At this time, only filters are supported.
@@ -55,6 +55,6 @@ describe LogStash::Filters::Grok do
           insist { subject["pid"] } == "1713"
         end
     end
-  
-    
+
+
 end
